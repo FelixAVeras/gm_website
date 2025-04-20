@@ -1,0 +1,137 @@
+body { 
+    background: #f3f3f3;
+    padding-top: 4%;
+    background-image: url('./images/fondo.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+div.container { padding: 12px; }
+
+.section-titles {
+    font-family: cursive;
+    font-size: 41px;
+    color: #327039;
+    font-weight: 600;
+}
+
+.section-subtitles {
+    color: #dd5c36;
+}
+
+.first-block {
+    background-image: linear-gradient(to bottom left, #f8edd9, white);
+}
+.second-block {
+    background-image: linear-gradient(to bottom right, #f8edd9, white);
+}
+.third-block {
+    background-image: linear-gradient(to bottom left, #f8edd9, white);
+}
+.fouth-block {
+    background-image: linear-gradient(to bottom right, #f8edd9, white);
+}
+
+.first-block, .second-block, .third-block, .fouth-block {
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.first-block p, .second-block p, .third-block p, .fouth-block p {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.fouth-block .card {
+    border: 2px solid #327039;
+}
+
+.infoSection h2, .infoSection h4 {
+    color: #f3f3f3;
+}
+.infoSection {
+   background-color: #dd5c36;
+   padding: 15px;
+   border-radius: 15px;
+}
+
+#pricing {
+    background-image: linear-gradient(to bottom right, #f8edd9, white);
+    border-radius: 10px;
+    padding: 14px;
+}
+
+nav.navbar {
+    background-color: #327039 !important;   
+}
+
+.contactForm {
+    background-color: #327039 !important; 
+}
+
+.contactForm .card {
+    background-color: #f8edd9;
+}
+
+textarea { resize: none; }
+
+input.form-control, textarea.form-control { border: 1px solid #327039; }
+
+button[type="submit"] { 
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.hero-image {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./images/morena.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    height: 100vh;
+    border-radius: 10px;
+}
+
+.hero-info {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.hero-info h4 {
+    color: #f8edd9;
+}
+
+#back-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    /* background-color: #007bff; */
+    /* color: white; */
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    cursor: pointer;
+    transition: opacity 0.3s ease-in-out;
+    opacity: 0;
+}
+
+#back-to-top.show {
+    opacity: 1;
+}
+
+.arrow-up {
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+    transform: rotate(-135deg);
+    -webkit-transform: rotate(-135deg);
+}
+
+.hidden {
+  display: none;
+}
